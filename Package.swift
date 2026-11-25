@@ -42,13 +42,13 @@ let package = Package(
         .package(url: "https://github.com/leviouwendijk/Errors.git", branch: "master"),
         .package(url: "https://github.com/leviouwendijk/Readers.git", branch: "master"),
         .package(url: "https://github.com/leviouwendijk/Writers.git", branch: "master"),
-        .package(url: "https://github.com/leviouwendijk/Parsing.git", branch: "master"),
+        .package(url: "https://github.com/swift-langs/Parsing.git", branch: "master"),
         .package(url: "https://github.com/leviouwendijk/Milieu.git", branch: "master"),
-        .package(url: "https://github.com/leviouwendijk/Frame.git", branch: "master"),
+        .package(url: "https://github.com/lco-langs/Frame.git", branch: "master"),
         .package(url: "https://github.com/leviouwendijk/IO.git", branch: "master"),
         .package(url: "https://github.com/leviouwendijk/Path.git", branch: "master"),
         .package(url: "https://github.com/leviouwendijk/Arguments.git", branch: "master"),
-        .package(url: "https://github.com/leviouwendijk/SQLite.git", branch: "master"),
+        .package(url: "https://github.com/swift-dsl/SQLite.git", branch: "master"),
     ],
     targets: [
         // message model, MIME rendering and parsing; no networking
